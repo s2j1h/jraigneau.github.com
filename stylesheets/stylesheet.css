@@ -105,18 +105,19 @@ header h2 {
   /*float: left;*/
 }
 
+#main-content404 {
+  width: 500px;
+  float: left;
+}
+
+
 #main-content img {
   max-width: 100%;
 }
 
 aside#sidebar {
-  width: 200px;
-  padding-left: 20px;
-  min-height: 504px;
+  width: 390px;
   float: right;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
-  font-size: 12px;
-  line-height: 1.3;
 }
 
 aside#sidebar p.repo-owner,
@@ -224,14 +225,14 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
-#main-content h1 {
+#main-content h1, #main-content404 h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
 } 
 
-#main-content h1:before {
+#main-content h1, #main-content404 h1:before {
   content: "/";
   color: #9ddcff;
   padding-right: 0.3em;
@@ -392,7 +393,7 @@ footer a:hover {
   #main-content {
     width: 490px;
   }
-  #main-content h1:before,
+  #main-content h1,#main-content404 h1:before,
   #main-content h2:before,
   #main-content h3:before,
   #main-content h4:before,
@@ -460,7 +461,7 @@ footer a:hover {
   aside#sidebar a.button {
     display: none;
   }
-  #main-content h1:before,
+  #main-content h1,#main-content404 h1:before,
   #main-content h2:before,
   #main-content h3:before,
   #main-content h4:before,
